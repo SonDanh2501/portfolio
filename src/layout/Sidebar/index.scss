@@ -1,0 +1,111 @@
+@import "../../themes/style.scss";
+
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 44px 8px 88px 8px;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    gap: $gapL;
+    
+    .side-bar__container {
+        display: flex;
+        flex-direction: column;
+        background-color: #fefffe;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;        
+        padding: 16px;
+        border-radius: $borderRadiusXL;
+        // opacity: 0.7;
+        transition: all 0.5s ease;
+        gap: $gapL;
+
+        .side-bar__container--header {
+            display: flex;
+            flex-direction: column;
+            gap: $gapXS;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: fit-content;
+    
+            .side-bar__container--header-logo {
+                display: flex;
+                border-radius: $borderRadiusFull;
+    
+                img {
+                    height: 50px;
+                    width: 50px;
+                }
+            }
+    
+            .side-bar__container--header-version {
+                display: flex;
+                text-align: center;
+    
+                span {
+                    font-size: $textFontSizeM;
+                    font-weight: $fontWeightL;
+                    color: $colorLightGray;
+                }
+            }
+        }
+    
+        .side-bar__container--body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: $gapL;
+            padding: 0px;
+
+            .side-bar__container--body-item {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                border-radius: $borderRadiusL;
+                width: 100%;
+    
+                span {
+                    font-size: 1.8rem;
+                    color: $colorLightGray;
+                    transition: all 0.5s ease;
+    
+                }
+    
+                &:hover {
+                    span {
+                        color: #004e92;
+                    }
+                }
+    
+                &.active {
+    
+                    span {
+                        color: #004e92;
+                                        }
+                }
+            }
+        }
+    
+        .side-bar__footer {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            transform: rotate(-90deg);
+    
+            span {
+                white-space: nowrap;
+                font-size: $textFontSizeL;
+                font-weight: $fontWeightXL;
+                color: $colorLightGray;
+            }
+        }
+    }
+
+
+}
