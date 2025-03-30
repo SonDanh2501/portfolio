@@ -4,7 +4,7 @@ import LandingPage from "../pages/LandingPage";
 const Admin = () => {
     return (
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/landing-page" element={<LandingPage />} />
       </Routes>
     );
   };
