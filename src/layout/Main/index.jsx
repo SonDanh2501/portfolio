@@ -5,7 +5,6 @@ import Sidebar from "../Sidebar";
 import HeaderBar from "../Header";
 import { debounce } from "lodash";
 import "./index.scss"
-import LandingPage from "../../pages/LandingPage";
 
 const { Header, Sider, Content } = Layout; // Set content có trong Layout, ở đây là gồm 3 phần Header, Thanh Sider, Content
 
@@ -125,7 +124,7 @@ const Main = () => {
             {/*Button để scroll to top page*/}
             {/* <FloatButton.BackTop /> */}
             {/*Các navigate page trong admin */}
-            <LandingPage/>
+            <Admin/>
           </Content>
         </Layout>
       </Layout>
