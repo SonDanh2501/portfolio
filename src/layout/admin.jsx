@@ -5,6 +5,7 @@ const Admin = () => {
     return (
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="*" element={<LandingPage />} />
       </Routes>
     );
   };
