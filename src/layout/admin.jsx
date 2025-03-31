@@ -1,12 +1,14 @@
-import { Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import LandingPage from "../pages/LandingPage";
 
 const Admin = () => {
-    return (
+  return (
+    <Router>
       <Routes>
         <Route path="/portfolio" element={<LandingPage />} />
       </Routes>
-    );
-  };
-  
-  export default Admin;
+    </Router>
+  );
+};
+
+export default Admin;
