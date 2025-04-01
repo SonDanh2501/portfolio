@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sondanh-portfolio/static/css/main.dbb61e8c.css",
-    "main.js": "/sondanh-portfolio/static/js/main.4e75f54a.js",
+    "main.js": "/sondanh-portfolio/static/js/main.0d90acb0.js",
     "static/media/demo.png": "/sondanh-portfolio/static/media/demo.fe90c1a6ff1313800782.png",
     "static/media/demo_booking_website.jpg": "/sondanh-portfolio/static/media/demo_booking_website.fbfde1a600870f963a2e.jpg",
     "static/media/avatar.jpg": "/sondanh-portfolio/static/media/avatar.1dca9448476e1283a138.jpg",
@@ -12,10 +12,10 @@
     "index.html": "/sondanh-portfolio/index.html",
     "static/media/wave.svg": "/sondanh-portfolio/static/media/wave.ba2cd0403c4b4561234494255b1a1069.svg",
     "main.dbb61e8c.css.map": "/sondanh-portfolio/static/css/main.dbb61e8c.css.map",
-    "main.4e75f54a.js.map": "/sondanh-portfolio/static/js/main.4e75f54a.js.map"
+    "main.0d90acb0.js.map": "/sondanh-portfolio/static/js/main.0d90acb0.js.map"
   },
   "entrypoints": [
     "static/css/main.dbb61e8c.css",
-    "static/js/main.4e75f54a.js"
+    "static/js/main.0d90acb0.js"
   ]
 }
