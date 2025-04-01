@@ -164,7 +164,7 @@ const LandingPage = () => {
           <div
             onClick={() =>
               handleClickLink(
-                "https://drive.google.com/file/d/1SK992IvzrhJGJJ-DEbT6wVQ6Cts3Qm83/view?usp=sharing"
+                "https://drive.google.com/file/d/1v55vq_0OrPvIh_PxKF7XFmGoopclNidb/view?usp=sharing"
               )
             }
             className="landing-page__right-corner--button"
