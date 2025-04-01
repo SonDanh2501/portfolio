@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.21ea579e.css",
-    "main.js": "/static/js/main.938fb2b2.js",
-    "static/media/logo.png": "/static/media/logo.f05ee5a9776466972a4a.png",
-    "static/media/demo.png": "/static/media/demo.0124c11b663796371504.png",
-    "static/media/avatar.jpg": "/static/media/avatar.1dca9448476e1283a138.jpg",
-    "static/media/feature__tools.png": "/static/media/feature__tools.1cf798badec0dc11640a.png",
-    "static/media/feature__web.png": "/static/media/feature__web.557eccd5b0606c6f1464.png",
-    "index.html": "/index.html",
-    "static/media/wave.svg": "/static/media/wave.ba2cd0403c4b4561234494255b1a1069.svg",
-    "main.21ea579e.css.map": "/static/css/main.21ea579e.css.map",
-    "main.938fb2b2.js.map": "/static/js/main.938fb2b2.js.map"
+    "main.css": "/sondanh-portfolio/static/css/main.1fb452cb.css",
+    "main.js": "/sondanh-portfolio/static/js/main.210b8745.js",
+    "static/media/wave_line.png": "/sondanh-portfolio/static/media/wave_line.84d87dc66567b30730e0.png",
+    "static/media/demo.png": "/sondanh-portfolio/static/media/demo.fe90c1a6ff1313800782.png",
+    "static/media/demo_booking_website.jpg": "/sondanh-portfolio/static/media/demo_booking_website.fbfde1a600870f963a2e.jpg",
+    "static/media/avatar.jpg": "/sondanh-portfolio/static/media/avatar.1dca9448476e1283a138.jpg",
+    "static/media/feature__tools.png": "/sondanh-portfolio/static/media/feature__tools.1cf798badec0dc11640a.png",
+    "static/media/logo.png": "/sondanh-portfolio/static/media/logo.e0748f7853f6f758e11b.png",
+    "static/media/feature__web.png": "/sondanh-portfolio/static/media/feature__web.557eccd5b0606c6f1464.png",
+    "static/media/logo.svg": "/sondanh-portfolio/static/media/logo.49fdebcc7d905f8e094fd6231d1241d4.svg",
+    "index.html": "/sondanh-portfolio/index.html",
+    "static/media/wave.svg": "/sondanh-portfolio/static/media/wave.ba2cd0403c4b4561234494255b1a1069.svg",
+    "main.1fb452cb.css.map": "/sondanh-portfolio/static/css/main.1fb452cb.css.map",
+    "main.210b8745.js.map": "/sondanh-portfolio/static/js/main.210b8745.js.map"
   },
   "entrypoints": [
-    "static/css/main.21ea579e.css",
-    "static/js/main.938fb2b2.js"
+    "static/css/main.1fb452cb.css",
+    "static/js/main.210b8745.js"
   ]
 }
