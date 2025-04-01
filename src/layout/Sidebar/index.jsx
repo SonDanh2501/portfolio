@@ -3,7 +3,7 @@ import "./index.scss";
 import logoImage from "../../assets/images/logo.png";
 
 import { FaHouse, FaAddressBook, FaBriefcase } from "react-icons/fa6";
-import { IoPerson, IoConstruct, IoDocument } from "react-icons/io5";
+import { IoPerson, IoConstruct, IoDocument, IoCodeWorking } from "react-icons/io5";
 import { Tooltip } from "antd";
 
 const Sidebar = () => {
@@ -25,6 +25,12 @@ const Sidebar = () => {
     },
     {
       id: 3,
+      icon: <IoCodeWorking />,
+      name: "Experience",
+      navigate: "experience",
+    },
+    {
+      id: 4,
       icon: <FaAddressBook />,
       name: "Recent work",
       navigate: "work",
