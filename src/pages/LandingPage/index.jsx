@@ -161,7 +161,14 @@ const LandingPage = () => {
           >
             <span>@sondanhwork2501</span>
           </div>
-          <div onClick= {() => handleClickLink("https://drive.google.com/file/d/1lVQcXWpljuiur5VxAw9CjI_cki8DIVd_/view?usp=sharing")}className="landing-page__right-corner--button">
+          <div
+            onClick={() =>
+              handleClickLink(
+                "https://drive.google.com/file/d/1lVQcXWpljuiur5VxAw9CjI_cki8DIVd_/view?usp=sharing"
+              )
+            }
+            className="landing-page__right-corner--button"
+          >
             <span>Check out my CV</span>
           </div>
         </div>
@@ -549,13 +556,21 @@ const LandingPage = () => {
         <div></div>
         <div className="landing-page__footer--icons">
           <div className="landing-page__footer--icons-icon">
-            <span onClick={() => handleClickLink("https://github.com/SonDanh2501")}>
+            <span
+              onClick={() => handleClickLink("https://github.com/SonDanh2501")}
+            >
               <IoLogoGithub />
             </span>
           </div>
           <div className="landing-page__footer--icons-icon">
-          <span onClick={() => handleClickLink("https://www.linkedin.com/in/danh-son-5678a2280/")}>
-          <IoLogoLinkedin />
+            <span
+              onClick={() =>
+                handleClickLink(
+                  "https://www.linkedin.com/in/danh-son-5678a2280/"
+                )
+              }
+            >
+              <IoLogoLinkedin />
             </span>
           </div>
         </div>
