@@ -197,7 +197,9 @@ const LandingPage = () => {
           <div className="landing-page__information--social-media-item">
             <span
               onClick={() =>
-                handleClickLink("www.linkedin.com/in/danh-son-5678a2280")
+                handleClickLink(
+                  "https://www.linkedin.com/in/danh-son-5678a2280/"
+                )
               }
               className="linked"
             >
@@ -245,15 +247,15 @@ const LandingPage = () => {
             <div className="landing-page__introduction--container-title-underline"></div>
           </div>
           <div className="landing-page__introduction--container-body">
-            <span>Hi there! I'm Son, a web developer from Vietnam.</span>
+            <span>Hi there! I'm Son, a web developer from Vietnam</span>
             <span>
-              Motivated developer with excellent English communication skills. I
-              have strong hands-on experience in Front-end development using
-              React TypeScript and UX/UI design with Figma. Additionally, I've
-              contributed to Back-end development by creating APIs with Nest Js.
-              With a solid background in Scrum projects, I'm passionate about
-              using my skills to drive innovative solutions and contribute
-              effectively to dynamic, collaborative teams.
+              I am a motivated developer with excellent English communication
+              skills. I have strong hands-on experience in Front-end development
+              using React TypeScript and UX/UI design with Figma. Additionally,
+              I have contributed to Back-end development by creating APIs with
+              NestJS. With a solid background in Scrum projects, I am passionate
+              about leveraging my skills to drive innovative solutions and
+              contribute effectively to dynamic, collaborative teams
             </span>
           </div>
           <div className="landing-page__introduction--container-my-skills">
@@ -319,9 +321,9 @@ const LandingPage = () => {
                   <div className="landing-page__experience--container-content-item-body-content-line">
                     <div className="landing-page__experience--container-content-item-body-content-line-bullets"></div>
                     <span className="landing-page__experience--container-content-item-body-content-line-text">
-                      Experienced UI/UX Designer specializing in creating
+                      Experienced UI/UX Designer specializing in crafting
                       intuitive and visually appealing user interfaces using
-                      Figma
+                      Figma.
                     </span>
                   </div>
                 </div>
@@ -339,7 +341,10 @@ const LandingPage = () => {
                   <div className="landing-page__experience--container-content-item-body-content-line">
                     <div className="landing-page__experience--container-content-item-body-content-line-bullets "></div>
                     <span className="landing-page__experience--container-content-item-body-content-line-text">
-                      Some Backend experience
+                      Skilled in back-end development, specializing in designing
+                      and implementing RESTful APIs while working with the MVC
+                      architecture. Focused on building scalable, maintainable,
+                      and secure applications.
                     </span>
                   </div>
                 </div>
@@ -369,10 +374,10 @@ const LandingPage = () => {
                   <div className="landing-page__experience--container-content-item-body-content-line">
                     <div className="landing-page__experience--container-content-item-body-content-line-bullets"></div>
                     <span className="landing-page__experience--container-content-item-body-content-line-text">
-                      Through my internship at the company, I have gained
-                      valuable teamwork skills, including effective
-                      collaboration, clear communication, and adaptability in a
-                      professional environment.
+                      Through my internship at the company, I gained valuable
+                      teamwork skills, including effective collaboration, clear
+                      communication, and adaptability in a professional
+                      environment.
                     </span>
                   </div>
                 </div>
@@ -381,8 +386,8 @@ const LandingPage = () => {
                     <div className="landing-page__experience--container-content-item-body-content-line-bullets "></div>
                     <span className="landing-page__experience--container-content-item-body-content-line-text">
                       During my internship at the company, I had the opportunity
-                      to work on real-world projects and contribute to small
-                      features.
+                      to work on real-world projects and contribute to feature
+                      development.
                     </span>
                   </div>
                 </div>
@@ -440,9 +445,9 @@ const LandingPage = () => {
               <div className="landing-page__project--container-works-item-content">
                 <span>
                   Guvi is a service-based application that connects customers
-                  with collaborators to perform cleaning-related tasks. Company
-                  staff receive requests and manage operations through a
-                  Customer Relationship Management (CRM) web platform.
+                  with collaborators for cleaning-related tasks. Company staff
+                  handle requests and manage operations through a Customer
+                  Relationship Management (CRM) web platform.
                 </span>
               </div>
               <div className="landing-page__project--container-works-item-framework">
@@ -505,11 +510,10 @@ const LandingPage = () => {
               </span>
               <div className="landing-page__project--container-works-item-content">
                 <span>
-                  It is a platform that facilitates the connection between
-                  sports enthusiasts and field owners, enabling field owners to
-                  efficiently manage and rent their facilities, while providing
-                  sports players with a quick and convenient way to locate
-                  available fields.
+                  It is a platform that connects sports enthusiasts with field
+                  owners, allowing field owners to efficiently manage and rent
+                  their facilities while providing players with a quick and
+                  convenient way to find available fields.
                 </span>
               </div>
               <div className="landing-page__project--container-works-item-framework">
@@ -551,7 +555,7 @@ const LandingPage = () => {
       <div className="landing-page__footer">
         <img className="landing-page__footer--logo" src={logoImage}></img>
         <span className="landing-page__footer--slogan">
-          Work hard, play hard
+        Give your best at work, enjoy life to the fullest
         </span>
         <div></div>
         <div className="landing-page__footer--icons">
@@ -578,7 +582,7 @@ const LandingPage = () => {
           Built by Danh Truong Son with React and JavaScript.
         </span>
         <span className="landing-page__footer--content">
-          Copyright © 2023 - 2025 All Rights Reserved.
+          Copyright © 2024 - 2025 All Rights Reserved.
         </span>
       </div>
       {/* Modal Image */}
