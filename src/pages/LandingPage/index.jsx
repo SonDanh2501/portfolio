@@ -142,6 +142,8 @@ const LandingPage = () => {
   const handleClickLink = (link) => {
     window.open(link, "_blank")
   }
+
+  /* Main */
   return (
     <div style={{ scrollBehavior: "smooth" }} className="landing-page">
       {/* Landing Page*/}
